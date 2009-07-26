@@ -152,7 +152,7 @@ var Tests = {
 	},
 	_error: function(exception){
 		this._group_errors++;
-    var message;
+		var message;
 		if('object' == typeof exception){
 			message = exception.name + ': ' + exception.message + '; line: ' + exception.lineNumber;
 		}else{
