@@ -112,7 +112,7 @@ var Tests = {
 	},
 	_show_message: function(message){
 		if(!$.isArray(message)){
-			message = ['assertion failed! ' + (message || '')];
+			message = ["assertion failed! ", (message || '')];
 		}
 		console.error.apply(console, message);
 	},
