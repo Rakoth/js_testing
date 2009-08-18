@@ -8,7 +8,7 @@
  *     $.isArray
  *     $.isFunction
  *
- *   firebug 1.3 (not 1.4) console is for output
+ *   firebug console is for output
  *
  * How to use:
  *   add your groups of tests in TestsGroups hash
